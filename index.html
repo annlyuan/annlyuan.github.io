@@ -327,6 +327,17 @@
       font-size: 0.75rem;
       color: #9ca3af;
     }
+    
+    .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 16px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
 
     /* small footer */
     .bottom-note {
@@ -338,6 +349,11 @@
   </style>
 </head>
 
+
+
+
+
+  
 <body>
   <div class="page">
     <!-- Top nav -->
@@ -479,6 +495,7 @@
       <aside class="side-card">
         <div class="side-inner">
           <div class="side-title">Profile</div>
+          <img src="profile.jpg" alt="Yuan Liu photo" class="profile-photo">
           <div class="side-name">Yuan Liu, PhD</div>
           <div class="side-role">
             Computational biologist · Bioinformatics · Neuroscience
